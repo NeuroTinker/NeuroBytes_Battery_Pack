@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:NeuroTinker_schematic_symbols
-LIBS:NeuroBytes_Battery_Power_4xAA-cache
+LIBS:NeuroBytes_Battery_Pack-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -126,19 +126,6 @@ Wire Wire Line
 	1600 1900 1600 2500
 Wire Wire Line
 	7100 1850 8000 1850
-$Comp
-L Switch_DPDT SW1
-U 1 1 5925F129
-P 3700 1750
-F 0 "SW1" H 3700 1350 60  0000 C CNN
-F 1 "Switch_DPDT" H 3700 2025 60  0000 C CNN
-F 2 "KiCad_Footprints:ZF_SW_Slide_DPDT_SMD" H 3700 1750 60  0001 C CNN
-F 3 "" H 3700 1750 60  0001 C CNN
-F 4 "No" H 3700 1750 60  0001 C CNN "Subs Allowed"
-F 5 "Yes" H 3700 1750 60  0001 C CNN "RoHS"
-	1    3700 1750
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	5650 1250 8000 1250
 Wire Wire Line
@@ -254,7 +241,7 @@ $EndComp
 Wire Wire Line
 	6200 2500 6200 1900
 Wire Wire Line
-	7350 1250 7350 1750
+	7350 1250 7350 3150
 Connection ~ 7350 1250
 Connection ~ 7500 1850
 Wire Wire Line
@@ -334,5 +321,103 @@ $EndComp
 Wire Wire Line
 	7500 1550 7500 1850
 Wire Wire Line
-	8000 1250 8000 1450
+	8000 1250 8000 2850
+Wire Wire Line
+	7100 3250 8000 3250
+Connection ~ 7500 3250
+Wire Wire Line
+	7650 2950 7500 2950
+Wire Wire Line
+	7650 3050 7500 3050
+Connection ~ 7500 3050
+Wire Wire Line
+	8000 3150 7850 3150
+Wire Wire Line
+	7350 3150 7650 3150
+Wire Wire Line
+	8000 2950 7850 2950
+Wire Wire Line
+	7850 3050 8000 3050
+$Comp
+L R_Small R1
+U 1 1 59C16211
+P 7750 2950
+F 0 "R1" V 7700 2750 50  0000 L CNN
+F 1 "R_Small" V 7250 2850 50  0000 L CNN
+F 2 "KiCad_Footprints:ZF_SMD_NonPol_0402" H 7750 2950 50  0001 C CNN
+F 3 "" H 7750 2950 50  0000 C CNN
+F 4 "No" H 7750 2950 60  0001 C CNN "Subs Allowed"
+F 5 "Yes" H 7750 2950 60  0001 C CNN "RoHS"
+	1    7750 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R3
+U 1 1 59C16219
+P 7750 3050
+F 0 "R3" V 7700 2850 50  0000 L CNN
+F 1 "R_Small" V 7250 2950 50  0000 L CNN
+F 2 "KiCad_Footprints:ZF_SMD_NonPol_0402" H 7750 3050 50  0001 C CNN
+F 3 "" H 7750 3050 50  0000 C CNN
+F 4 "No" H 7750 3050 60  0001 C CNN "Subs Allowed"
+F 5 "Yes" H 7750 3050 60  0001 C CNN "RoHS"
+	1    7750 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R7
+U 1 1 59C16221
+P 7750 3150
+F 0 "R7" V 7700 2950 50  0000 L CNN
+F 1 "R_Small" V 7250 3050 50  0000 L CNN
+F 2 "KiCad_Footprints:ZF_SMD_NonPol_0402" H 7750 3150 50  0001 C CNN
+F 3 "" H 7750 3150 50  0000 C CNN
+F 4 "No" H 7750 3150 60  0001 C CNN "Subs Allowed"
+F 5 "Yes" H 7750 3150 60  0001 C CNN "RoHS"
+	1    7750 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X05 P2
+U 1 1 59C16229
+P 8200 3050
+F 0 "P2" H 8200 3350 50  0000 C CNN
+F 1 "JST_GH_5-pos" V 8300 3050 50  0000 C CNN
+F 2 "KiCad_Footprints:ZF_CONN_JST_GH_5POS" H 8400 3450 50  0000 C CNN
+F 3 "" H 8200 3050 50  0000 C CNN
+F 4 "No" H 8200 3050 60  0001 C CNN "Subs Allowed"
+F 5 "Yes" H 8200 3050 60  0001 C CNN "RoHS"
+	1    8200 3050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7500 2950 7500 3250
+Connection ~ 8000 1450
+Connection ~ 7350 1750
+$Comp
+L GND #PWR06
+U 1 1 59C1639A
+P 7100 3600
+F 0 "#PWR06" H 7100 3350 50  0001 C CNN
+F 1 "GND" H 7100 3450 50  0000 C CNN
+F 2 "" H 7100 3600 50  0001 C CNN
+F 3 "" H 7100 3600 50  0001 C CNN
+	1    7100 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3600 7100 3250
+$Comp
+L Switch_SPDT SW1
+U 1 1 59C16AD6
+P 3700 1750
+F 0 "SW1" H 3700 1350 60  0000 C CNN
+F 1 "Switch_SPDT" H 3700 2025 60  0000 C CNN
+F 2 "KiCad_Footprints:ZF_SW_PCM12SMTR" H 3700 1750 60  0001 C CNN
+F 3 "" H 3700 1750 60  0001 C CNN
+F 4 "No" H 3700 1750 60  0001 C CNN "Subs Allowed"
+F 5 "Yes" H 3700 1750 60  0001 C CNN "RoHS"
+	1    3700 1750
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
