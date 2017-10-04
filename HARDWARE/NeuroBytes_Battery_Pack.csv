@@ -1,0 +1,30 @@
+Title,NeuroBytes Battery Pack,,,,,,,
+Revision,F,,,,,,,
+Date,2017-10-03,,,,,,,
+Generated,Wed 04 Oct 2017 10:34:18 AM MDT,,,,,,,
+Company,NeuroTinker, LLC,,,,,,
+Comment 1,License: GPL v3,,,,,,,
+Comment 2,,,,,,,,
+Comment 3,,,,,,,,
+Comment 4,,,,,,,,
+Total Parts,16,,,,,,,
+Total Unique Parts,9,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Ref,Qty,Value,Link,Mfr,Mfr Part #,Package,RoHS,Subs Allowed
+BT1 ,1,4xAA,https://www.digikey.com/product-detail/en/mpd-memory-protection-devices/BC4AAPC/BC4AAPC-ND/2329366,MPD (Memory Protection Devices),BC4AAPC,THT,Yes,No
+C1 C2 ,2,1u,https://www.digikey.com/product-detail/en/taiyo-yuden/LMK107B7105KA-T/587-1242-2-ND/930594,Taiyo Yuden,LMK107B7105KA-T,C0603,Yes,Yes
+D1 ,1,LED,https://www.digikey.com/product-detail/en/rohm-semiconductor/SMLP13EC8TT86/846-1113-2-ND/3973665,Rohm Semiconductor,SMLP13EC8TT86,L0402,Yes,No
+F1 ,1,500 mA,https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-2-ND/4156298,Bel Fuse Inc.,0ZCH0050FF2G,F1210,Yes,Yes
+P1 P2 ,2,JST_GH_5-pos,https://www.digikey.com/product-detail/en/jst-sales-america-inc/SM05B-GHS-TB-LF-SN/455-1567-2-ND/807789,JST,SM05B-GHS-TB(LF)(SN),SMT,Yes,No
+R2 ,1,4k7,https://www.digikey.com/product-detail/en/yageo/RC0402FR-074K7L/311-4.7KLRCT-ND/2827881,Yageo,RC0402FR-074K7L,R0402,Yes,Yes
+R4 R5 R6 R1 R3 R7 ,6,10k,https://www.digikey.com/product-detail/en/yageo/RC0402FR-0710KL/311-10.0KLRTR-ND/726523,Yageo,RC0402FR-0710KL,R0402,Yes,Yes
+SW1 ,1,Switch_SPDT,https://www.digikey.com/product-detail/en/c-k/PCM12SMTR/401-2016-1-ND/1640125,C&K,PCM12SMTR,SMT,Yes,No
+U1 ,1,LDL212_LDO,https://www.digikey.com/product-detail/en/stmicroelectronics/LDL212PU50R/497-16897-1-ND/6230213,ST Microelectronics,LDL212PU50R,6DFN,Yes,No
+N/A (see Gerber F.Fab),4,Polyurethane Bumper,https://www.mcmaster.com/#95495K57,McMaster-Carr,95495K57,stick-on,Yes,No
+N/A (see Gerber F.Fab),2,"Nylon Rivet, off-white",https://www.mcmaster.com/#90136A530,McMaster-Carr,90136A530,push-in,Yes,No
+,,,,,,,,
+,,,,,,,,
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git),,,,,,,,
+Generated Wed 04 Oct 2017 10:34:18 AM MDT,,,,,,,,
