@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e1-6374~58~ubuntu14.04.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu14.04.1)
 
   (general
     (links 31)
     (no_connects 0)
-    (area 137.825 30.224999 208.778761 100.725001)
+    (area 78.899999 22.8 255.285715 153.1)
     (thickness 1.6)
     (drawings 86)
     (tracks 123)
@@ -12,13 +12,15 @@
     (nets 13)
   )
 
-  (page B)
+  (page A)
   (title_block
     (title "NeuroBytes Battery Pack")
     (date 2017-10-03)
     (rev F)
     (company "NeuroTinker, LLC")
-    (comment 1 "License: GPL v3")
+    (comment 1 "(C) 2017 Zach Fredin")
+    (comment 2 "Drawing No. ZF-11268")
+    (comment 3 "License: CC-BY-SA 4.0")
   )
 
   (layers
@@ -76,7 +78,7 @@
     (grid_origin 144 93)
     (visible_elements FFFFEF7F)
     (pcbplotparams
-      (layerselection 0x00008_00000000)
+      (layerselection 0x210fc_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -99,7 +101,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory ../../../NeuroTinker_RFQ_Sept2017/NeuroBytes_Battery_Pack/))
   )
 
   (net 0 "")
@@ -173,6 +175,7 @@
   (module KiCad_Footprints:ZF_SMD_NonPol_0402 (layer F.Cu) (tedit 5734FC22) (tstamp 590117C7)
     (at 175 44.5)
     (path /5925E806)
+    (attr smd)
     (fp_text reference D1 (at 0 1.5) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -193,6 +196,7 @@
   (module KiCad_Footprints:ZF_SMD_NonPol_0402 (layer F.Cu) (tedit 591B0B98) (tstamp 5925FBE1)
     (at 175 47 270)
     (path /5925E8B5)
+    (attr smd)
     (fp_text reference R2 (at 0 1.5 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -213,6 +217,7 @@
   (module KiCad_Footprints:ZF_SMD_nonpol_1210 (layer F.Cu) (tedit 5925D2E3) (tstamp 59261619)
     (at 195 70.8 270)
     (path /5925DF2A)
+    (attr smd)
     (fp_text reference F1 (at 0 2.1 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -227,6 +232,7 @@
 
   (module KiCad_Footprints:ZF_LOGO_Mitochondria (layer F.Cu) (tedit 0) (tstamp 59445705)
     (at 174.5 71)
+    (attr smd)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )
@@ -1197,6 +1203,7 @@
   (module KiCad_Footprints:ZF_SMD_NonPol_0603 (layer F.Cu) (tedit 591B0C64) (tstamp 5945EEEB)
     (at 194 58 180)
     (path /5945CEAC)
+    (attr smd)
     (fp_text reference C1 (at 0 1.5 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1212,6 +1219,7 @@
   (module KiCad_Footprints:ZF_SMD_NonPol_0603 (layer F.Cu) (tedit 591B0C64) (tstamp 5945EEF1)
     (at 190 55.4 90)
     (path /59D50CF8)
+    (attr smd)
     (fp_text reference C2 (at 0 1.5 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1227,6 +1235,7 @@
   (module KiCad_Footprints:ZF_IC_DFN6_3x3 (layer F.Cu) (tedit 5945C13D) (tstamp 5945EF1F)
     (at 194 55.4 270)
     (path /5945CE35)
+    (attr smd)
     (fp_text reference U1 (at 0 4.7 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1255,6 +1264,7 @@
 
   (module KiCad_Footprints:ZF_LOGO_OSHW (layer B.Cu) (tedit 0) (tstamp 5945FE2C)
     (at 155 83.85 180)
+    (attr smd)
     (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
@@ -1627,6 +1637,7 @@
 
   (module KiCad_Footprints:ZF_LOGO_MN (layer B.Cu) (tedit 0) (tstamp 5946079B)
     (at 194.5 44 180)
+    (attr smd)
     (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
@@ -2633,6 +2644,7 @@
 
   (module KiCad_Footprints:ZF_LOGO_Map (layer B.Cu) (tedit 0) (tstamp 59461173)
     (at 176.1 68.1 180)
+    (attr smd)
     (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
@@ -2939,6 +2951,7 @@
   (module KiCad_Footprints:ZF_SMD_NonPol_0402 (layer F.Cu) (tedit 591B0B98) (tstamp 598E1B79)
     (at 173 47)
     (path /5945D90D)
+    (attr smd)
     (fp_text reference R4 (at 0 1.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2959,6 +2972,7 @@
   (module KiCad_Footprints:ZF_SMD_NonPol_0402 (layer F.Cu) (tedit 591B0B98) (tstamp 598E1B7F)
     (at 173 49)
     (path /59D51162)
+    (attr smd)
     (fp_text reference R5 (at 0 1.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -2979,6 +2993,7 @@
   (module KiCad_Footprints:ZF_SMD_NonPol_0402 (layer F.Cu) (tedit 591B0B98) (tstamp 598E1B85)
     (at 173 48)
     (path /59D511AB)
+    (attr smd)
     (fp_text reference R6 (at 0 1.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3027,6 +3042,7 @@
   (module KiCad_Footprints:ZF_SMD_NonPol_0402 (layer F.Cu) (tedit 591B0B98) (tstamp 59C15FEF)
     (at 177 47 180)
     (path /59D5127C)
+    (attr smd)
     (fp_text reference R1 (at 0 1.5 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3047,6 +3063,7 @@
   (module KiCad_Footprints:ZF_SMD_NonPol_0402 (layer F.Cu) (tedit 591B0B98) (tstamp 59C15FF5)
     (at 177 48 180)
     (path /59D51346)
+    (attr smd)
     (fp_text reference R3 (at 0 1.5 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3067,6 +3084,7 @@
   (module KiCad_Footprints:ZF_SMD_NonPol_0402 (layer F.Cu) (tedit 591B0B98) (tstamp 59C15FFB)
     (at 177 49 180)
     (path /59D513E2)
+    (attr smd)
     (fp_text reference R7 (at 0 1.5 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )

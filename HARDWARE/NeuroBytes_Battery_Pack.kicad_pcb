@@ -1,24 +1,26 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e1-6374~58~ubuntu14.04.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu14.04.1)
 
   (general
     (links 31)
     (no_connects 0)
     (area 78.899999 22.8 255.285715 153.1)
     (thickness 1.6)
-    (drawings 86)
+    (drawings 88)
     (tracks 123)
     (zones 0)
     (modules 20)
     (nets 13)
   )
 
-  (page B)
+  (page A)
   (title_block
     (title "NeuroBytes Battery Pack")
     (date 2017-10-03)
     (rev F)
     (company "NeuroTinker, LLC")
-    (comment 1 "License: GPL v3")
+    (comment 1 "(C) 2017 Zach Fredin")
+    (comment 2 "Drawing No. ZF-11268")
+    (comment 3 "License: CC-BY-SA 4.0")
   )
 
   (layers
@@ -3127,6 +3129,8 @@
     (pad "" thru_hole circle (at -1.5 0 270) (size 0.9 0.9) (drill 0.9) (layers *.Cu *.Mask))
   )
 
+  (gr_line (start 146.5 93) (end 141.5 93) (layer F.Fab) (width 0.2))
+  (gr_line (start 144 90.5) (end 144 95.5) (layer F.Fab) (width 0.2))
   (gr_line (start 190 40) (end 188 40) (layer F.Fab) (width 0.2))
   (gr_line (start 190 38) (end 190 38) (layer F.Fab) (width 0.2) (tstamp 59D51084))
   (gr_line (start 190 40) (end 190 38) (layer F.Fab) (width 0.2))
