@@ -5,4 +5,4 @@ The NeuroBytes Battery Pack provides power to NeuroBytes products, open-source h
 These boards were designed in KiCad and Inkscape and are released under the terms of the Creative Commons Attribution-ShareAlike 4.0 license, available here: https://creativecommons.org/licenses/by-sa/4.0/. The NeuroBytes Battery Pack is Certified Open Source Hardware as defined by [OSHWA](https://www.oshwa.org).
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-<a rel="certification" href="http://certificate.oshwa.org/certification-directory/"><img alt="OSHWA Certification" style"border-width:0" src=/HARDWARE/oshwa.png /></a>
+![OSHWA Certification](/HARDWARE/oshwa.png)
