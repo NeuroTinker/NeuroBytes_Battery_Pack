@@ -1,12 +1,13 @@
-### Module positions - created on Wed May 23 13:56:59 2018 ###
+### Module positions - created on Wed May 23 17:51:30 2018 ###
 ### Printed by Pcbnew version kicad 4.0.7-e2-6376~58~ubuntu14.04.1
 ## Unit = mm, Angle = deg.
 ## Side : All
-# Ref     Val           Package                    PosX       PosY       Rot  Side
+# Ref     Val           Package                 PosX       PosY       Rot  	Side
+BT1       4xAA          2-BATT   		174.9250   -64.2250    0.0000  bottom
 C1        1u            C0603     		194.0000   -58.0000  180.0000  top
-C2        1u            C0603			190.0000   -55.4000   90.0000  top
-D1        LED           L0402     		175.0000   -44.5000    0.0000  top
-F1        500 mA        SMD1210     		195.0000   -70.8000  270.0000  top
+C2        1u            C0603     		190.0000   -55.4000   90.0000  top
+D1        LED           D0402     		175.0000   -44.5000    0.0000  top
+F1        500 mA        F1210     		195.0000   -70.8000  270.0000  top
 P1        JST_GH_5-pos  JST_GH_5POS    		166.0000   -47.0000   90.0000  top
 P2        JST_GH_5-pos  JST_GH_5POS    		184.0000   -47.0000   90.0000  top
 R1        10k           R0402     		177.0000   -47.0000  180.0000  top

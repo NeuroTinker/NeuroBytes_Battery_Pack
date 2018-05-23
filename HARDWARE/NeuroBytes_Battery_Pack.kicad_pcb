@@ -101,7 +101,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory Gerbers))
+      (outputdirectory ""))
   )
 
   (net 0 "")
@@ -142,6 +142,7 @@
   (module KiCad_Footprints:ZF_BATT_4xAA_BC4AAPC locked (layer B.Cu) (tedit 582B69C8) (tstamp 5945F1B0)
     (at 174.925 64.225)
     (path /5925DED3)
+    (attr smd)
     (fp_text reference BT1 (at 14.65 23) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
