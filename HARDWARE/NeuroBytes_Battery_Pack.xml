@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/zach/Documents/NeuroTinker/Products/NeuroBytes_Battery_Pack/HARDWARE/NeuroBytes_Battery_Pack.sch</source>
-    <date>Wed 04 Oct 2017 10:34:18 AM MDT</date>
-    <tool>Eeschema 4.0.7-e1-6374~58~ubuntu14.04.1</tool>
+    <date>Wed 23 May 2018 01:54:09 PM CDT</date>
+    <tool>Eeschema 4.0.7-e2-6376~58~ubuntu14.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>NeuroBytes Battery Pack</title>
@@ -135,7 +135,7 @@
         <field name="Subs Allowed">No</field>
         <field name="RoHS">Yes</field>
       </fields>
-      <libsource lib="conn" part="CONN_01X05"/>
+      <libsource lib="NeuroBytes_Battery_Pack-cache" part="CONN_01X05"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>598E1195</tstamp>
     </comp>
@@ -255,7 +255,7 @@
         <field name="Subs Allowed">No</field>
         <field name="RoHS">Yes</field>
       </fields>
-      <libsource lib="conn" part="CONN_01X05"/>
+      <libsource lib="NeuroBytes_Battery_Pack-cache" part="CONN_01X05"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59D517B4</tstamp>
     </comp>
@@ -287,8 +287,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="CONN_01X05">
-      <description>Connector, single row, 01x05, pin header</description>
+    <libpart lib="NeuroBytes_Battery_Pack-cache" part="CONN_01X05">
       <footprints>
         <fp>Pin_Header_Straight_1X*</fp>
         <fp>Pin_Header_Angled_1X*</fp>
@@ -391,14 +390,14 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
     <library logical="NeuroTinker_schematic_symbols">
       <uri>/home/zach/Documents/NeuroTinker/Products/NeuroBytes_Battery_Power/HARDWARE/schematic_lib/NeuroTinker_schematic_symbols.lib</uri>
     </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
+    <library logical="NeuroBytes_Battery_Pack-cache">
+      <uri>/home/zach/Documents/NeuroTinker/Products/NeuroBytes_Battery_Pack/HARDWARE/NeuroBytes_Battery_Pack-cache.lib</uri>
     </library>
   </libraries>
   <nets>

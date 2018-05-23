@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 78.899999 22.8 255.285715 153.1)
     (thickness 1.6)
-    (drawings 86)
+    (drawings 88)
     (tracks 123)
     (zones 0)
     (modules 20)
@@ -3129,6 +3129,8 @@
     (pad "" thru_hole circle (at -1.5 0 270) (size 0.9 0.9) (drill 0.9) (layers *.Cu *.Mask))
   )
 
+  (gr_line (start 146.5 93) (end 141.5 93) (layer F.Fab) (width 0.2))
+  (gr_line (start 144 90.5) (end 144 95.5) (layer F.Fab) (width 0.2))
   (gr_line (start 190 40) (end 188 40) (layer F.Fab) (width 0.2))
   (gr_line (start 190 38) (end 190 38) (layer F.Fab) (width 0.2) (tstamp 59D51084))
   (gr_line (start 190 40) (end 190 38) (layer F.Fab) (width 0.2))
