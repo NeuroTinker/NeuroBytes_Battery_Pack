@@ -1,4 +1,4 @@
-update=Wed 24 May 2017 02:35:27 PM CDT
+update=Thu 31 May 2018 03:35:31 PM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,13 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/home/zach/Documents/NeuroTinker/Products/NeuroBytes_Battery_Power/HARDWARE/schematic_lib/NeuroTinker_schematic_symbols
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
